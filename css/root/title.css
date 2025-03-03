@@ -1,0 +1,13 @@
+.title { 
+    margin: 60px 0;
+}
+
+.title h2 { 
+    font-family: 'title_font';
+}
+
+.title h2 span { 
+    font-size: 18px;
+    font-family: 'main_font';
+    margin-left: 10px;
+}

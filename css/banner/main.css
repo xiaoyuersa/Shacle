@@ -1,0 +1,12 @@
+.banner { 
+    width: 100%;
+}
+
+.banner img { 
+    width: 100%;
+}
+
+.swiper { 
+    height: 25%;
+    --swiper-theme-color: #128afa;
+}

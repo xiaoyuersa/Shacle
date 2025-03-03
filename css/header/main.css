@@ -1,0 +1,52 @@
+.header { 
+    height: 100px;
+    /* background-color: var(--color-primary); */
+}
+
+.logo>div { 
+    width: 80px;
+    float: left;
+    margin: 0 0.5px;
+    padding-top: 15px;
+}
+
+.logo .header-title{ 
+    height: 100px;
+    align-items: center;
+    width: auto;
+    float: left;
+    font-family: 'main_font';
+    margin: 0 20px;
+    padding-top: 25px;
+}
+
+.logo .header-title p{
+    font-size: 12px;
+    float: left;
+    line-height: 12px;
+    font-weight: 500;
+    font-family: 'main_font';
+}
+
+.slogan { 
+    height: 100px;
+    float: right;
+    font-family: 'main_font';
+}
+
+.slogan>h2 { 
+    line-height: 100px;
+    margin: 0;
+}
+
+@media  screen and (max-width: 1024px) {
+    .slogan { 
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header-title span { 
+        display: none;
+    }
+}

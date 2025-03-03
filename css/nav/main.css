@@ -1,0 +1,22 @@
+nav { 
+    background-color: var(--color-primary-dark);
+}
+
+.nav-item { 
+    width: 175px;
+}
+
+.nav-link { 
+    color: var(--color-font-white);
+    font-size: 20px;
+    font-family: 'title_font';
+    line-height: 20px;
+    text-align: center;
+}
+
+.nav-link:hover,
+.nav-lin:active,
+.nav-link:visited { 
+    color: var(--color-font-white);
+    background-color: var(--color-primary);
+}
