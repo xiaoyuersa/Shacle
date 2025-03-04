@@ -5,9 +5,9 @@
 
 .s-background { 
     width: 100%;
-    height: 200px;
+    height: 25vh;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 105% auto;
 }
 
 .s-background { 
@@ -20,18 +20,18 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #47a7ffee;
+    background-color: #47a7ffaa;
     color: white;
     transition: left 0.3s cubic-bezier(0.77, 0, 0.175, 1);
-    padding: 20px;
+    padding: 25px;
 }
 
 .s-info h2 { 
     font-family: 'title_font';
 }
 
-.s-info p { 
-    font-size: 14px;
+.s-info p {
+    font-size: 1rem;
     margin-top: 10px;
     font-family: 'main_font';
     text-indent: 2em;
@@ -45,8 +45,38 @@
     margin-bottom: 60px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 1024px) {
+    .s-info p { 
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
     .s-background { 
-        height: 170px;
+        height: 40vh;
+    }
+    .s-info  p { 
+        display: block;
+        font-size: 2vh;
+}
+
+@media screen and (max-width: 768px) {
+    .s-background { 
+        height: 40vh;
+    }
+    .school-item .s-info {
+        left: 0;
+    }
+    .s-info p { 
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .s-background { 
+        height: 50vw;
+    }
+    .s-info  p { 
+        font-size: 1.2vh;
     }
 }
